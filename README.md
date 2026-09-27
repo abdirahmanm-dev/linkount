@@ -1,17 +1,28 @@
-# linkount
+# Linkount
 
-A new Flutter project.
+A personal finance / shared accounting Flutter app — currently under active development.
+
+## Status
+🚧 Early development — core architecture and theming in progress.
+
+## Tech Stack
+- Flutter & Dart
+- Firebase
+- Riverpod (state management)
+
+## Architecture
+This project follows a clean, layered architecture with strict separation of concerns:
+
+```
+lib/
+├── screens/       # UI only
+├── widgets/        # Shared reusable widgets
+├── models/         # Data definitions
+├── repositories/   # Bridge between services and providers
+├── services/       # Raw external communication (Firebase, APIs)
+├── providers/      # State management (Riverpod)
+└── core/           # Theme, routing, constants, utils
+```
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project is not yet ready for public use or contribution.
