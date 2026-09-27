@@ -48,6 +48,6 @@ app.*.map.json
 .widget_preview/
 
 # private directories
-/lib/services
-/lib/repositories
-/lib/providers
+lib/services
+lib/repositories
+lib/providers
