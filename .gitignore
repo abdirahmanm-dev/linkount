@@ -46,8 +46,3 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
-
-# private directories
-lib/services
-lib/repositories
-lib/providers
