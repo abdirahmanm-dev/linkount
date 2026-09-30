@@ -16,7 +16,7 @@ class AppTheme {
     ),
     textTheme: const TextTheme(
       bodyLarge: TextStyle(color: AppColors.textPrimaryLight),
-      bodyMedium: TextStyle(color: AppColors.textSecondaryDark),
+      bodyMedium: TextStyle(color: AppColors.textSecondaryLight),
     ),
     useMaterial3: true,
   );
@@ -29,6 +29,10 @@ class AppTheme {
       surface: AppColors.surfaceDark,
       onSurface: AppColors.textPrimaryDark,
       error: AppColors.youOwed,
+    ),
+    textTheme: const TextTheme(
+      bodyLarge: TextStyle(color: AppColors.textPrimaryDark),
+      bodyMedium: TextStyle(color: AppColors.textSecondaryDark),
     ),
     useMaterial3: true,
   );
