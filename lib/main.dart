@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:linkount/core/theme/app_theme.dart';
+
+import 'core/l10n/app_localizations.dart';
 
 void main() => runApp(const ProviderScope(child: LinkountApp()));
 
@@ -11,6 +14,17 @@ class LinkountApp extends StatelessWidget {
     theme: AppTheme.light,
     darkTheme: AppTheme.dark,
     themeMode: ThemeMode.system,
-    home: Scaffold(body: Center(child: Text("Linkount"))),
+    localizationsDelegates: const [
+      AppLocalizations.delegate,
+      GlobalMaterialLocalizations.delegate,
+      GlobalWidgetsLocalizations.delegate,
+      GlobalCupertinoLocalizations.delegate,
+    ],
+    supportedLocales: [Locale('en'), Locale("ar")],
+    home: Builder(
+      builder: (context) => Scaffold(
+        body: Center(child: Text(AppLocalizations.of(context)!.appTitle)),
+      ),
+    ),
   );
 }

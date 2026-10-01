@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "appTitle": "Linkount",
+  "@appTitle": {
+    "description": "The application name shown in the title bar"
+  }
+}
