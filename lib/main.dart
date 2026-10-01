@@ -23,7 +23,9 @@ class LinkountApp extends StatelessWidget {
     supportedLocales: [Locale('en'), Locale("ar")],
     home: Builder(
       builder: (context) => Scaffold(
-        body: Center(child: Text(AppLocalizations.of(context)!.appTitle)),
+        body: Center(
+          child: Card(child: Text(AppLocalizations.of(context)!.appTitle)),
+        ),
       ),
     ),
   );
