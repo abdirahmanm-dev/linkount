@@ -11,4 +11,22 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get appTitle => 'Linkount';
+
+  @override
+  String get languageSystem => 'System';
+
+  @override
+  String get languageEnglish => 'English';
+
+  @override
+  String get languageArabic => 'العربة';
+
+  @override
+  String get themeSystem => 'System';
+
+  @override
+  String get themeLight => 'Light';
+
+  @override
+  String get themeDark => 'Dark';
 }

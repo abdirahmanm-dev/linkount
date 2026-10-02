@@ -1,4 +1,10 @@
 {
   "@@locale": "ar",
-  "appTitle": "لينكاونت"
+  "appTitle": "لينكاونت",
+  "themeSystem": "النظام",
+  "themeLight": "فاتح",
+  "themeDark": "داكن",
+  "languageSystem": "النظام",
+  "languageEnglish": "English",
+  "languageArabic": "العربة"
 }

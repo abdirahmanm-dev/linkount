@@ -103,6 +103,42 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Linkount'**
   String get appTitle;
+
+  /// Language option: follow the device language
+  ///
+  /// In en, this message translates to:
+  /// **'System'**
+  String get languageSystem;
+
+  /// Language option: English, always shown in its own language
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get languageEnglish;
+
+  /// Language option: Arabic, always shown in its own language
+  ///
+  /// In en, this message translates to:
+  /// **'العربة'**
+  String get languageArabic;
+
+  /// Theme option: follow the device setting
+  ///
+  /// In en, this message translates to:
+  /// **'System'**
+  String get themeSystem;
+
+  /// Theme option: always light
+  ///
+  /// In en, this message translates to:
+  /// **'Light'**
+  String get themeLight;
+
+  /// Theme option: always dark
+  ///
+  /// In en, this message translates to:
+  /// **'Dark'**
+  String get themeDark;
 }
 
 class _AppLocalizationsDelegate
